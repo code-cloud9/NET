@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The code is for reproducing the numerical experiments and data example results in "Optimal Nonparametric Inference on Network Effects with Dependent Edges".
+The code is for reproducing the numerical experiments and data example results in 'Optimal Nonparametric Inference on Network Effects with Dependent Edges'.
 
 ## Guidelines for Result Replication
 

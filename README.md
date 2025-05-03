@@ -16,15 +16,13 @@ The code is for reproducing the numerical experiments and data example results i
 
 1) **Table 6:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 
-### Results in Appendix E
+### Results in Appendix
 
-1) **Table S1 and Figure S1:** Please run `./simulation_main/empirical_typeIerror/typeIerror_and_qqplot.R` to obtain the results.
+1) **Table S2 and Figure S1:** Please run `./simulation_main/empirical_typeIerror/typeIerror_and_qqplot.R` to obtain the results.
 
 2) **Figure S2:** Please go to folder `./simulation_appendix/` and run `lambda_plot.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
 
-### Results in Appendix F
-
-1) **Figure S4 and Table S2:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
+3) **Figure S4 and Table S4:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
 
 
 ## Packed Algorithm Code for Practitioners

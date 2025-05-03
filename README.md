@@ -6,13 +6,13 @@ The code is for reproducing the numerical experiments and data example results i
 
 ## Guidelines for Result Replication
 
-### Results in Section 7
+### Results in Simulation
   
-1) **Figure 1 and Table 4:** Please go to folder `./simulation_main/empirical_typeIerror/` and run `typeIerror_and_qqplot.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
+1) **Figure 1 and Table 3:** Please go to folder `./simulation_main/empirical_typeIerror/` and run `typeIerror_and_qqplot.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
 
-2) **Table 5:** Please go to folder `./simulation_main/empirical_power/` and run `power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical powers.
+2) **Table 4:** Please go to folder `./simulation_main/empirical_power/` and run `power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical powers.
 
-### Results in Section 8
+### Results in Application
 
 1) **Table 6:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 

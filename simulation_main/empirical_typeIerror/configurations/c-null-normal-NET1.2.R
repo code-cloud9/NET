@@ -281,17 +281,15 @@ for (city_size in city_sizes){
       studentuzed_t <- incomplete_Us_NO_debias_standz(city_size, alpha=1.2, Error_term.example$e_ij.save)
       
       
-      #' #'@_test_stat_of_eta3_and_eta5
-      #' nondegentest_ets5 <- eta5_nondegen_concentration_test(city_size, Error_term.example$e_ij.save)
-      #' 
-      #' if(nondegentest_ets5$sigma_square_51 > sqrt(log(city_size)/city_size)){
-      #'   c(studentuzed_t$test_stat[3], nondegentest_ets5$t)
-      #'   
-      #' }else if(nondegentest_ets5$sigma_square_51 <= sqrt(log(city_size)/city_size)){
-      #'   c(studentuzed_t$test_stat[3], studentuzed_t$test_stat[5])
-      #' }
+      #'@_test_stat_of_eta3_and_eta5
+      nondegentest_ets5 <- eta5_nondegen_concentration_test(city_size, Error_term.example$e_ij.save)
       
-      c(studentuzed_t$test_stat[3], studentuzed_t$test_stat[5])
+      if(nondegentest_ets5$sigma_square_51 > sqrt(log(city_size)/city_size)){
+        c(studentuzed_t$test_stat[3], nondegentest_ets5$t)
+      }else if(nondegentest_ets5$sigma_square_51 <= sqrt(log(city_size)/city_size)){
+        c(studentuzed_t$test_stat[3], studentuzed_t$test_stat[5])
+      }
+      
     }
   })
 

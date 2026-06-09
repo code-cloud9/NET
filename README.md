@@ -14,7 +14,7 @@ The code is for reproducing the numerical experiments and data example results i
 
 ### Results in Application
 
-1) **Table 6:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
+1) **Table 5:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 
 ### Results in Appendix
 

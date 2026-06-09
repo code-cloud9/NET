@@ -22,7 +22,7 @@ The code is for reproducing the numerical experiments and data example results i
 
 1) **Table S4:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 
-4) **Figure S5 and Table S8:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
+4) **Table S5 and Figure S8:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
 
 
 ## Packed Algorithm Code for Practitioners

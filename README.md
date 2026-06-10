@@ -20,7 +20,7 @@ The code is for reproducing the numerical experiments and data example results i
 
 3) **Figure S3:** Please go to folder `./simulation_appendix/` and run `typeIerror-power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
 
-4) **Table S4 and Figure S5:** Please go to folder `./simulation_appendix/C-sensitivity/outputs and plots` and run `plot-mis-diag-rate.R` and `plot-size-and-power.R` in R to obtain the results. The implementation code for experiments is located in `./simulation_appendix/C-sensitivity/configurations`. To save time, one can use the intermediate results saved in the folder `./simulation_appendix/C-sensitivity/outputs and plots` to calculate the empirical sizes.
+4) **Table S4 and Figure S5:** Please go to folder `./simulation_appendix/C-sensitivity/` and run `./outputs and plots/plot-mis-diag-rate.R` and `./outputs and plots/plot-size-and-power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations`. To save time, one can use the intermediate results saved in the folder `./outputs and plots` to calculate the empirical sizes.
 
 5) **Table S4:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 

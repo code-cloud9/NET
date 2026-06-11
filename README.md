@@ -6,7 +6,7 @@ The code is for reproducing the numerical experiments and data example results i
 
 ## Guidelines for Result Replication
 
-Note: re-running the simulation configurations requires 128 GB RAM and 20 cores.
+Note: re-running all the simulation configurations requires 128 GB RAM and 20 cores.
 
 ### Results in the Main File
   

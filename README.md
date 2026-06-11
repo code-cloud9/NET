@@ -12,6 +12,8 @@ The code is for reproducing the numerical experiments and data example results i
 
 2) **Table 4:** Please go to folder `./simulation_main/empirical_power/` and run `power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical powers.
 
+3) **Figure 1:** Please go to folder `./application_faculty_hiring_networks/` and run `effects_plot_1.R` to obtain the figure. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
+
 ### Results in Appendix
 
 1) **Figure S1:** Please go to folder `./simulation_main/empirical_typeIerror/` and run `typeIerror_and_qqplot.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
@@ -20,11 +22,13 @@ The code is for reproducing the numerical experiments and data example results i
 
 3) **Figure S3:** Please go to folder `./simulation_appendix/` and run `typeIerror-power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.
 
-4) **Table S4 and Figure S5:** Please go to folder `./simulation_appendix/C-sensitivity/` and run `./outputs and plots/plot-mis-diag-rate.R` and `./outputs and plots/plot-size-and-power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations`. To save time, one can use the intermediate results saved in the folder `./outputs and plots` to calculate the empirical sizes.
+4) **Figure S4 and Figure S5:** Please go to folder `./simulation_appendix/C-sensitivity/` and run `./outputs and plots/plot-mis-diag-rate.R` and `./outputs and plots/plot-size-and-power.R` in R to obtain the results. The implementation code for experiments is located in `./configurations`. To save time, one can use the intermediate results saved in the folder `./outputs and plots` to calculate the empirical sizes.
 
-5) **Table S4:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
+5) **Figure S6 and Figure S7:** Please go to folder `./application_faculty_hiring_networks/` and run `effects_plot_radar.R` and `effects_plot_2.R` to obtain the figures. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
 
-6) **Table S5 and Figure S8:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
+6) **Table S4:** Please go to folder `./application_faculty_hiring_networks/` and run `*.R` to obtain the results, where `*` is `Business`, `CS`, and `History`. The data matrices are in folder `./ready_to_use_data_matrices/`, and the original data files are given in paper <a href="https://www.science.org/doi/10.1126/sciadv.1400005">Systematic inequality and hierarchy in faculty hiring networks</a>.
+
+7) **Table S5 and Figure S8:** First download the data in paper <a href="https://scholar.harvard.edu/melitz/publications/estimating-trade-flows-trading-partners-and-trading-volumes">Estimating trade flows: Trading partners and trading volumes</a>. Then please run `./application_international_trade_network/trade_network.R` to obtain the results.
 
 
 ## Packed Algorithm Code for Practitioners

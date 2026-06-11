@@ -6,6 +6,8 @@ The code is for reproducing the numerical experiments and data example results i
 
 ## Guidelines for Result Replication
 
+Note: re-running the simulation configurations requires 128 GB RAM and 20 cores.
+
 ### Results in the Main File
   
 1) **Table 3:** Please go to folder `./simulation_main/empirical_typeIerror/` and run `typeIerror_and_qqplot.R` in R to obtain the results. The implementation code for experiments is located in `./configurations/`. To save time, one can use the intermediate results saved in the folder `./outputs/` to calculate the empirical sizes.

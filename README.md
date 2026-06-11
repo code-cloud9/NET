@@ -6,7 +6,20 @@ The code is for reproducing the numerical experiments and data example results i
 
 ## Guidelines for Result Replication
 
-Note: re-running all the simulation configurations requires 128 GB RAM and 20 cores.
+Note: re-running all the simulation configurations requires 128 GB RAM and 20 cores. An example SLURM submission script:
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=<job_name>
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=128G
+#SBATCH --time=30:00:00
+
+module load <R_module>   # e.g., R 4.2.2
+Rscript <configuration_script>.R
+```
 
 ### Results in the Main File
   
